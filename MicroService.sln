@@ -1,0 +1,134 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService", "MicroService\MicroService.csproj", "{41EB976D-FC08-4B07-B254-E9D64971EECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Example", "MicroService.Example\MicroService.Example.csproj", "{A70F381A-71F2-4229-908C-7E29A27378E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{12DFE014-BC63-46CF-9C98-2B4845D3C56E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Core", "Core\MicroService.Core\MicroService.Core.csproj", "{B66EE4FA-93F3-431C-8FEA-050C5CCAC7AC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MicroService.Contract", "MicroService.Contract\MicroService.Contract.shproj", "{808032BA-1103-4BE2-821C-3A8417CCFE68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Core.WebServer", "Core\MicroService.Core.WebServer\MicroService.Core.WebServer.csproj", "{04584D16-E0FC-4159-A9CE-36038E33A495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Core.Network", "Core\MicroService.Core.Network\MicroService.Core.Network.csproj", "{247C2D7E-2A80-443A-9AC6-4170677F4A85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Core.Config", "Core\MicroService.Core.Config\MicroService.Core.Config.csproj", "{711A47D2-0B6A-45AF-915B-8449D63204EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Core.Storage", "Core\MicroService.Core.Storage\MicroService.Core.Storage.csproj", "{7BF455D9-F55F-4C73-858D-7AF1F5B34EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Core.Logger", "Core\MicroService.Core.Logger\MicroService.Core.Logger.csproj", "{E34A85F9-27CF-419A-9EC8-0F798A3702CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Core.ServiceBus", "Core\MicroService.Core.ServiceBus\MicroService.Core.ServiceBus.csproj", "{F86C267E-6191-44F5-8150-ABCE8532FB5A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MicroService.Contract\MicroService.Contract.projitems*{a70f381a-71f2-4229-908c-7e29a27378e3}*SharedItemsImports = 4
+		MicroService.Contract\MicroService.Contract.projitems*{808032ba-1103-4be2-821c-3a8417ccfe68}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41EB976D-FC08-4B07-B254-E9D64971EECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41EB976D-FC08-4B07-B254-E9D64971EECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41EB976D-FC08-4B07-B254-E9D64971EECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41EB976D-FC08-4B07-B254-E9D64971EECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70F381A-71F2-4229-908C-7E29A27378E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70F381A-71F2-4229-908C-7E29A27378E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70F381A-71F2-4229-908C-7E29A27378E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70F381A-71F2-4229-908C-7E29A27378E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66EE4FA-93F3-431C-8FEA-050C5CCAC7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66EE4FA-93F3-431C-8FEA-050C5CCAC7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66EE4FA-93F3-431C-8FEA-050C5CCAC7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66EE4FA-93F3-431C-8FEA-050C5CCAC7AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04584D16-E0FC-4159-A9CE-36038E33A495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04584D16-E0FC-4159-A9CE-36038E33A495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04584D16-E0FC-4159-A9CE-36038E33A495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04584D16-E0FC-4159-A9CE-36038E33A495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247C2D7E-2A80-443A-9AC6-4170677F4A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247C2D7E-2A80-443A-9AC6-4170677F4A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247C2D7E-2A80-443A-9AC6-4170677F4A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247C2D7E-2A80-443A-9AC6-4170677F4A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711A47D2-0B6A-45AF-915B-8449D63204EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711A47D2-0B6A-45AF-915B-8449D63204EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711A47D2-0B6A-45AF-915B-8449D63204EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711A47D2-0B6A-45AF-915B-8449D63204EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF455D9-F55F-4C73-858D-7AF1F5B34EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF455D9-F55F-4C73-858D-7AF1F5B34EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF455D9-F55F-4C73-858D-7AF1F5B34EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF455D9-F55F-4C73-858D-7AF1F5B34EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34A85F9-27CF-419A-9EC8-0F798A3702CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34A85F9-27CF-419A-9EC8-0F798A3702CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34A85F9-27CF-419A-9EC8-0F798A3702CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34A85F9-27CF-419A-9EC8-0F798A3702CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86C267E-6191-44F5-8150-ABCE8532FB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86C267E-6191-44F5-8150-ABCE8532FB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86C267E-6191-44F5-8150-ABCE8532FB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86C267E-6191-44F5-8150-ABCE8532FB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B66EE4FA-93F3-431C-8FEA-050C5CCAC7AC} = {12DFE014-BC63-46CF-9C98-2B4845D3C56E}
+		{04584D16-E0FC-4159-A9CE-36038E33A495} = {12DFE014-BC63-46CF-9C98-2B4845D3C56E}
+		{247C2D7E-2A80-443A-9AC6-4170677F4A85} = {12DFE014-BC63-46CF-9C98-2B4845D3C56E}
+		{711A47D2-0B6A-45AF-915B-8449D63204EC} = {12DFE014-BC63-46CF-9C98-2B4845D3C56E}
+		{7BF455D9-F55F-4C73-858D-7AF1F5B34EB0} = {12DFE014-BC63-46CF-9C98-2B4845D3C56E}
+		{E34A85F9-27CF-419A-9EC8-0F798A3702CE} = {12DFE014-BC63-46CF-9C98-2B4845D3C56E}
+		{F86C267E-6191-44F5-8150-ABCE8532FB5A} = {12DFE014-BC63-46CF-9C98-2B4845D3C56E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://europe.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MicroService\\MicroService.csproj
+		SccProjectName1 = MicroService
+		SccLocalPath1 = MicroService
+		SccProjectUniqueName2 = MicroService.Example\\MicroService.Example.csproj
+		SccProjectName2 = MicroService.Example
+		SccLocalPath2 = MicroService.Example
+		SccProjectUniqueName3 = Core\\MicroService.Core\\MicroService.Core.csproj
+		SccProjectTopLevelParentUniqueName3 = MicroService.sln
+		SccProjectName3 = Core/MicroService.Core
+		SccLocalPath3 = Core\\MicroService.Core
+		SccProjectUniqueName4 = MicroService.Contract\\MicroService.Contract.shproj
+		SccProjectName4 = MicroService.Contract
+		SccLocalPath4 = MicroService.Contract
+		SccProjectUniqueName5 = MicroService.Contract\\MicroService.Contract.projitems
+		SccProjectTopLevelParentUniqueName5 = MicroService.Contract\\MicroService.Contract.shproj
+		SccProjectName5 = MicroService.Contract
+		SccLocalPath5 = MicroService.Contract
+		SccProjectUniqueName6 = Core\\MicroService.Core.WebServer\\MicroService.Core.WebServer.csproj
+		SccProjectTopLevelParentUniqueName6 = MicroService.sln
+		SccProjectName6 = Core/MicroService.Core.WebServer
+		SccLocalPath6 = Core\\MicroService.Core.WebServer
+		SccProjectUniqueName7 = Core\\MicroService.Core.Network\\MicroService.Core.Network.csproj
+		SccProjectTopLevelParentUniqueName7 = MicroService.sln
+		SccProjectName7 = Core/MicroService.Core.Network
+		SccLocalPath7 = Core\\MicroService.Core.Network
+		SccProjectUniqueName8 = Core\\MicroService.Core.Config\\MicroService.Core.Config.csproj
+		SccProjectTopLevelParentUniqueName8 = MicroService.sln
+		SccProjectName8 = Core/MicroService.Core.Config
+		SccLocalPath8 = Core\\MicroService.Core.Config
+		SccProjectUniqueName9 = Core\\MicroService.Core.Storage\\MicroService.Core.Storage.csproj
+		SccProjectTopLevelParentUniqueName9 = MicroService.sln
+		SccProjectName9 = Core/MicroService.Core.Storage
+		SccLocalPath9 = Core\\MicroService.Core.Storage
+		SccProjectUniqueName10 = Core\\MicroService.Core.Logger\\MicroService.Core.Logger.csproj
+		SccProjectTopLevelParentUniqueName10 = MicroService.sln
+		SccProjectName10 = Core/MicroService.Core.Logger
+		SccLocalPath10 = Core\\MicroService.Core.Logger
+		SccProjectUniqueName11 = Core\\MicroService.Core.ServiceBus\\MicroService.Core.ServiceBus.csproj
+		SccProjectTopLevelParentUniqueName11 = MicroService.sln
+		SccProjectName11 = Core/MicroService.Core.ServiceBus
+		SccLocalPath11 = Core\\MicroService.Core.ServiceBus
+	EndGlobalSection
+EndGlobal
